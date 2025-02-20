@@ -44,7 +44,9 @@ Update the database connection configuration in the ./database.js file.
 Run the migrations to create the necessary tables (example for users and sessions):
 
 sql
+
 Copy code
+
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100),
